@@ -30,7 +30,7 @@
     "cursor"
   ],
   "scripts": {
-    "test": "node --test tests/*.test.mjs",
+    "test": "node --test",
     "check:syntax": "node scripts/check-syntax.mjs",
     "check:repo": "node scripts/check-repo.mjs",
     "sync:claude-lib": "node scripts/sync-claude-lib.mjs",
