@@ -1,0 +1,5 @@
+{
+  "name": "agent-privacy-shield",
+  "version": "0.1.0",
+  "description": "Local semantic privacy virtualization for Gemini CLI and other coding agents."
+}

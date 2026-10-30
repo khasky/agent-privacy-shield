@@ -1,0 +1,13 @@
+{
+  "name": "agent-privacy-shield",
+  "version": "0.1.0",
+  "description": "Local privacy virtualization for coding agents: replaces identifying paths and workspace identity with stable aliases and restores them only for local tool execution.",
+  "author": {
+    "name": "Khasky"
+  },
+  "homepage": "https://github.com/khasky/agent-privacy-shield#readme",
+  "repository": "https://github.com/khasky/agent-privacy-shield",
+  "license": "MIT",
+  "keywords": ["privacy", "security", "redaction", "pii"],
+  "hooks": "./adapters/cursor/hooks.json"
+}

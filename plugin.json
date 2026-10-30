@@ -1,0 +1,36 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "agent-privacy-shield",
+  "version": "0.1.0",
+  "description": "Local privacy virtualization for coding agents: stable semantic aliases, secret blocking, and tool path localization.",
+  "author": {
+    "name": "Khasky",
+    "url": "https://github.com/khasky"
+  },
+  "homepage": "https://github.com/khasky/agent-privacy-shield",
+  "repository": "https://github.com/khasky/agent-privacy-shield",
+  "license": "MIT",
+  "keywords": [
+    "privacy",
+    "security",
+    "redaction",
+    "pii",
+    "codex"
+  ],
+  "extensions": {
+    "com.openai": {
+      "hooks": "./adapters/codex/hooks/hooks.json",
+      "interface": {
+        "displayName": "Agent Privacy Shield",
+        "shortDescription": "Privacy virtualization for Codex and coding agents",
+        "developerName": "Khasky",
+        "category": "Developer Tools",
+        "websiteURL": "https://github.com/khasky/agent-privacy-shield",
+        "capabilities": [
+          "Read",
+          "Write"
+        ]
+      }
+    }
+  }
+}

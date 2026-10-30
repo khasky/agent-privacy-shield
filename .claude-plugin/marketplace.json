@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace-manifest.json",
+  "name": "agent-privacy-shield",
+  "description": "Agent Privacy Shield adapters. Claude Code plugin plus cross-agent privacy core.",
+  "owner": {
+    "name": "Khasky",
+    "url": "https://github.com/khasky"
+  },
+  "metadata": {
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "agent-privacy-shield",
+      "version": "0.1.0",
+      "description": "Privacy virtualization for Claude Code.",
+      "author": {
+        "name": "Khasky",
+        "url": "https://github.com/khasky"
+      },
+      "license": "MIT",
+      "source": "./adapters/claude-code",
+      "category": "security"
+    }
+  ]
+}

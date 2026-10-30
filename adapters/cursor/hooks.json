@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "hooks": {
+    "beforeSubmitPrompt": [
+      {
+        "command": "node ./adapters/cursor/scripts/hook.mjs",
+        "timeout": 30,
+        "failClosed": true
+      }
+    ],
+    "preToolUse": [
+      {
+        "command": "node ./adapters/cursor/scripts/hook.mjs",
+        "timeout": 30,
+        "failClosed": true
+      }
+    ]
+  }
+}

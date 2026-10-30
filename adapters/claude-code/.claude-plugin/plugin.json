@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "agent-privacy-shield",
+  "version": "0.1.0",
+  "description": "Local semantic privacy virtualization for Claude Code.",
+  "author": {
+    "name": "Khasky",
+    "url": "https://github.com/khasky"
+  },
+  "homepage": "https://github.com/khasky/agent-privacy-shield",
+  "repository": "https://github.com/khasky/agent-privacy-shield",
+  "displayName": "Agent Privacy Shield",
+  "license": "MIT",
+  "keywords": [
+    "privacy",
+    "security",
+    "redaction",
+    "pii",
+    "claude-code"
+  ]
+}

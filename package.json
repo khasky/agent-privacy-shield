@@ -1,0 +1,43 @@
+{
+  "name": "agent-privacy-shield",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Agent-agnostic semantic privacy virtualization for coding agents.",
+  "author": {
+    "name": "Khasky",
+    "url": "https://github.com/khasky"
+  },
+  "homepage": "https://github.com/khasky/agent-privacy-shield#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khasky/agent-privacy-shield.git"
+  },
+  "bugs": {
+    "url": "https://github.com/khasky/agent-privacy-shield/issues"
+  },
+  "keywords": [
+    "privacy",
+    "security",
+    "redaction",
+    "pii",
+    "coding-agents",
+    "claude-code",
+    "codex",
+    "gemini-cli",
+    "antigravity",
+    "kilo-code",
+    "cursor"
+  ],
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "check:syntax": "node scripts/check-syntax.mjs",
+    "check:repo": "node scripts/check-repo.mjs",
+    "sync:claude-lib": "node scripts/sync-claude-lib.mjs",
+    "check": "npm run check:syntax && npm run check:repo && npm test"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT"
+}

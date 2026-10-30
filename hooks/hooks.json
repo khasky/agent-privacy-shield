@@ -1,0 +1,28 @@
+{
+  "BeforeModel": [
+    {
+      "matcher": "*",
+      "hooks": [
+        {
+          "name": "aps-before-model",
+          "type": "command",
+          "command": "node ${extensionPath}/adapters/gemini-cli/scripts/hook.mjs",
+          "timeout": 10000
+        }
+      ]
+    }
+  ],
+  "BeforeTool": [
+    {
+      "matcher": ".*",
+      "hooks": [
+        {
+          "name": "aps-before-tool",
+          "type": "command",
+          "command": "node ${extensionPath}/adapters/gemini-cli/scripts/hook.mjs",
+          "timeout": 10000
+        }
+      ]
+    }
+  ]
+}
